@@ -13,5 +13,13 @@ namespace ParkingBonMVVM
     /// </summary>
     public partial class App : Application
     {
+
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            Model.DatumBon pbmod = new Model.DatumBon();
+            ParkingBon.ParkingBonWindow pbv = new ParkingBon.ParkingBonWindow();
+            pbv.DataContext = pbmod;
+            pbv.Show();
+        }
     }
 }
