@@ -82,8 +82,8 @@
     </Compile>
     <Compile Include="Model\ParkingBon.cs" />
     <Compile Include="ViewModel\ParkingBonVM.cs" />
-    <Compile Include="View\ParkingBonVIew.xaml.cs">
-      <DependentUpon>ParkingBonVIew.xaml</DependentUpon>
+    <Compile Include="View\ParkingBonView.xaml.cs">
+      <DependentUpon>ParkingBonView.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -116,7 +116,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Page Include="View\ParkingBonVIew.xaml">
+    <Page Include="View\ParkingBonView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
