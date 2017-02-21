@@ -9,25 +9,25 @@ namespace ParkingBonMVVM.ViewModel
 {
     public class ParkingBonVM : ViewModelBase
     {
-        private Model.DatumBon datumBonValue;
+        private Model.ParkingBon parkingBonValue;
 
 
         public DateTime Datum
         {
-            get { return datumBonValue.Datum; }
+            get { return parkingBonValue.Datum; }
             set
             {
-                datumBonValue.Datum = value;
+                parkingBonValue.Datum = value;
                 RaisePropertyChanged("Datum");
             }
         }
 
         public DateTime Begintijd
         {
-            get { return datumBonValue.Begintijd; }
+            get { return parkingBonValue.Begintijd; }
             set
             {
-                datumBonValue.Begintijd = value;
+                parkingBonValue.Begintijd = value;
                 RaisePropertyChanged("Begintijd");
             }
         }
@@ -35,28 +35,28 @@ namespace ParkingBonMVVM.ViewModel
 
         public Decimal Bedrag
         {
-            get { return datumBonValue.Bedrag; }
+            get { return parkingBonValue.Bedrag; }
             set
             {
-                datumBonValue.Bedrag = value;
+                parkingBonValue.Bedrag = value;
                 RaisePropertyChanged("Bedrag");
             }
         }
 
         public DateTime Eindtijd
         {
-            get { return datumBonValue.Eindtijd; }
+            get { return parkingBonValue.Eindtijd; }
             set
             {
-                datumBonValue.Eindtijd = value;
+                parkingBonValue.Eindtijd = value;
                 RaisePropertyChanged("Eindtijd");
             }
         }
 
     */
-        public ParkingBonVM(Model.DatumBon datumbon)
+        public ParkingBonVM(Model.ParkingBon parkingbon)
         {
-            this.datumBonValue = datumbon;
+            this.parkingBonValue = parkingbon;
         }
 
 

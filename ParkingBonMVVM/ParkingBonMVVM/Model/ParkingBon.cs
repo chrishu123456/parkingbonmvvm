@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ParkingBonMVVM.Model
 {
-    public class DatumBon
+    public class ParkingBon
     {
         public DateTime Datum { get; set; }
 
@@ -16,7 +16,7 @@ namespace ParkingBonMVVM.Model
 
         public DateTime Eindtijd { get; set; }
 
-        public DatumBon(DateTime datum, DateTime begintijd, decimal bedrag, DateTime eindtijd)
+        public ParkingBon(DateTime datum, DateTime begintijd, decimal bedrag, DateTime eindtijd)
         {
             this.Datum = datum;
             this.Begintijd = begintijd;
