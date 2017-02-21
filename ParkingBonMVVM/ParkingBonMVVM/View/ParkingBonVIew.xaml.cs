@@ -12,7 +12,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ParkingBon
+namespace ParkingBon.View
 {
     /// <summary>
     /// Interaction logic for ParkingBonWindow.xaml

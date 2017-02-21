@@ -1,4 +1,4 @@
-﻿<Window x:Class="ParkingBon.ParkingBonWindow"
+﻿<Window x:Class="ParkingBon.View.ParkingBonView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:custom="clr-namespace:ParkingBon"
